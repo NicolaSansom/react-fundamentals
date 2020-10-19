@@ -1,14 +1,14 @@
-<!-- Basic JavaScript-rendered Hello World -->
-<!-- http://localhost:3000/isolated/exercise/01.html -->
-<html>
-  <body></body>
+<!-- Learnt about basic way to add DOM elements to DOM via JS  -->
+<body>
   <script type="module">
+    // Create elements and add attributes
     const rootNode = document.createElement('div')
     rootNode.id = 'root'
+    // Append to the DOM
     document.body.appendChild(rootNode)
     const div = document.createElement('div')
     div.textContent = 'Hello World'
     div.className = 'container'
     rootNode.append(div)
   </script>
-</html>
+</body>
