@@ -1,6 +1,21 @@
 <!-- Basic JavaScript-rendered Hello World -->
 <!-- http://localhost:3000/isolated/exercise/01.html -->
 
+<html>
+  <body></body>
+  <script type="module">
+    const rootNode = document.createElement('div')
+    rootNode.id = 'root'
+    document.body.appendChild(rootNode)
+    // Extra credit
+    const div = document.createElement('div')
+    div.textContent = 'Hello World'
+    div.className = 'container'
+
+    rootNode.append(div)
+  </script>
+</html>
+
 <!-- 🐨 Create (in HTML) a <body> with a <div> with the id of "root" -->
 <!-- 🐨 Then create a <script type="module"> for your JavaScript -->
 
