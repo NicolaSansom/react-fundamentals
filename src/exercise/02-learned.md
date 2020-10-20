@@ -17,4 +17,4 @@ Declarative api can carry out imperative steps. JS can be a mix of both
 ## EXTRA CREDIT
 
 You can pass in children as thrid argument this stops key error should learn
-more about this in a future lesson
+more about this in a future Switching to pass eleent
